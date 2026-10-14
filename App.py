@@ -502,7 +502,7 @@ else:
     mapa_efact = folium.Map(
         location=[latitude_centro, longitude_centro],
         zoom_start=7,
-        tiles="CartoDB positron",
+        tiles="OpenStreetMap",
     )
 
     agrupador = MarkerCluster().add_to(mapa_efact)
