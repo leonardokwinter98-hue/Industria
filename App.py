@@ -11,6 +11,7 @@ Fluxo:
 from html import escape
 from pathlib import Path
 
+import db_dtypes
 import folium
 import pandas as pd
 import streamlit as st
